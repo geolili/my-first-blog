@@ -27,6 +27,7 @@ h4 {
 
 .save {
     float: right;
+    margin-bottom: 20px;
 }
 
 .post-form textarea,
@@ -52,19 +53,27 @@ h4 {
     color: #000000;
 }
 
+.post p {
+    text-align: justify;
+}
+
 .post > .date,
 .post > .actions {
     float: right;
 }
 
+aside {
+    margin-left: 20px;
+}
+
 .btn-default,
 .btn-default:visited {
-    color: #C25100;
+    color: #e63352;
     background: none;
-    border-color: #C25100;
+    border-color: #e63352;
 }
 
 .btn-default:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: #e63352;
 }
